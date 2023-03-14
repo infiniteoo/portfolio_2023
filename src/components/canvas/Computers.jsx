@@ -1,18 +1,20 @@
 import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+import { Interaction } from "three.interaction";
 
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./halo/scene.gltf");
+  
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.15} groundColor='black' />
+      <hemisphereLight intensity={0.15} groundColor="black" />
       <spotLight
         position={[-20, 50, 10]}
-        angle={0.12}
+        angle={0.2}
         penumbra={1}
         intensity={1}
         castShadow
@@ -21,9 +23,9 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={0.13} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.7 : .025}
-        position={isMobile ? [0, -3, -2.2] : [0, -2.2, -1.5]}
-        rotation={[-0.01, -0.2, -0.1]}
+        scale={isMobile ? 0.7 : 0.025}
+        position={isMobile ? [0, -3, -2.2] : [-1.0, -2.2, -1.5]}
+        rotation={[0.0, 1.0, -0.0]}
       />
     </mesh>
   );
@@ -55,7 +57,7 @@ const ComputersCanvas = () => {
 
   return (
     <Canvas
-      frameloop='demand'
+      frameloop="demand"
       shadows
       dpr={[1, 2]}
       camera={{ position: [20, 3, 5], fov: 25 }}
