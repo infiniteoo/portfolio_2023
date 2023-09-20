@@ -122,10 +122,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Completed University of Minnesota's Full-Slack Coding Bootcamp where I was introduced to the MERN paradigm. Continuing self teaching and introducing myself to new technologies while I search for a full-time gig as a programmer."
     ],
   },
   {
