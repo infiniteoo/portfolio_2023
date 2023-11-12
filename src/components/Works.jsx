@@ -15,12 +15,13 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  demo_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{
-          max: 45,
+          max: 12,
           scale: 1,
           speed: 450,
         }}
@@ -50,6 +51,9 @@ const ProjectCard = ({
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
+          <div className="mt-5">
+            <a href={demo_link}>Live Demo</a>
+          </div>
         </div>
 
         <div className="mt-4 flex flex-wrap gap-2">

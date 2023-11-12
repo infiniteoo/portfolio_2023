@@ -9,11 +9,13 @@ import {
   css,
   reactjs,
   redux,
+  history,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
+  forklift,
   docker,
   meta,
   starbucks,
@@ -23,6 +25,12 @@ import {
   jobit,
   tripguide,
   threejs,
+  uofm,
+  tsm,
+  powerding,
+  wms,
+  photos,
+  twins,
 } from "../assets";
 
 export const navLinks = [
@@ -118,7 +126,7 @@ const experiences = [
   {
     title: "Past to Present",
     company_name: "how we got here",
-    icon: tesla,
+    icon: history,
     iconBg: "#E6DEDD",
     date: "Birth - Jan 2014",
     points: [
@@ -130,7 +138,7 @@ const experiences = [
   {
     title: "Director of Production",
     company_name: "Townsquare Media",
-    icon: shopify,
+    icon: tsm,
     iconBg: "#383E56",
     date: "Jan 2014 - Jan 2017",
     points: [
@@ -144,23 +152,21 @@ const experiences = [
   {
     title: "Production Director",
     company_name: "Go Radio / Minnesota Twins",
-    icon: meta,
+    icon: twins,
     iconBg: "#E6DEDD",
     date: "Jan 2016 - Jan 2020",
     points: [
       "Write and produce radio commercials and creative imaging for local and national clients.",
       "Maintain broadcast servers and content databases, update station website and social media.",
-
       "Technical producer for Minnesota Twins Player's Playlist weekly radio show and podcast.",
-
       "On-field photographer for Minnesota Twins home games, and other special events.",
-      "Worked daily with notable hip-hop creators DJ Bonics (Wiz Khalifa), Sophia Eris (Lizzo), DJ D-Mil (Rhymesayers), and Peter Parker (Machine Gun Kelly).",
+      "Worked daily with notable hip-hop creators DJ Bonics (Wiz Khalifa), Sophia Eris (Lizzo), and Peter Parker (Machine Gun Kelly).",
     ],
   },
   {
     title: "Bootcamp Graduation",
     company_name: "University of Minnesota",
-    icon: starbucks,
+    icon: uofm,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
@@ -170,7 +176,7 @@ const experiences = [
   {
     title: "Forklift Operator | Jr. Developer",
     company_name: "Current",
-    icon: meta,
+    icon: forklift,
     iconBg: "#E6DEDD",
     date: "Apr 2021 - Present",
     points: [
@@ -214,8 +220,12 @@ const projects = [
   {
     name: "Open WMS",
     description:
-      "Complete warehouse management system (WMS) built with Next.js, React Native, Clerk, and Supabase. Includes inventory management, inbound/outbound shipments, mobile app, and many more features.",
+      "Warehouse management system built with Next.js, React Native, Clerk, and Supabase. Includes inventory/shipment management, mobile app, and more features.",
     tags: [
+      {
+        name: "next.js",
+        color: "pink-text-gradient",
+      },
       {
         name: "react-native",
         color: "blue-text-gradient",
@@ -224,13 +234,10 @@ const projects = [
         name: "supabase",
         color: "green-text-gradient",
       },
-      {
-        name: "next-js",
-        color: "pink-text-gradient",
-      },
     ],
-    image: carrent,
+    image: wms,
     source_code_link: "https://github.com/infiniteoo/wms",
+    demo_link: "https://greatblue.netlify.app",
   },
   {
     name: "Photography Portfolio",
@@ -250,8 +257,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: photos,
     source_code_link: "https://github.com/infiniteoo/photo_portfolio",
+    demo_link: "https://troypics.netlify.app",
   },
   {
     name: "PowerDing",
@@ -271,8 +279,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: powerding,
     source_code_link: "https://github.com/infiniteoo/powerding",
+    demo_link: "https://powerding.netlify.app",
   },
 ];
 
