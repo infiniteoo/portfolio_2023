@@ -7,7 +7,6 @@ import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./halo/scene.gltf");
-  
 
   return (
     <mesh>
