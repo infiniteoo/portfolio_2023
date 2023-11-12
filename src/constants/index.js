@@ -46,12 +46,12 @@ const services = [
     icon: web,
   },
   {
-    title: "Linux Administration",
-    icon: mobile,
+    title: "Cloud Developer",
+    icon: backend,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Linux Administration",
+    icon: mobile,
   },
   {
     title: "Radio Producer & Editor",
@@ -116,16 +116,6 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Completed University of Minnesota's Full-Slack Coding Bootcamp where I was introduced to the MERN paradigm. Continuing self teaching and introducing myself to new technologies while I search for a full-time gig as a programmer."
-    ],
-  },
-  {
     title: "React Native Developer",
     company_name: "Tesla",
     icon: tesla,
@@ -136,6 +126,16 @@ const experiences = [
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "React.js Developer",
+    company_name: "Starbucks",
+    icon: starbucks,
+    iconBg: "#383E56",
+    date: "March 2020 - April 2021",
+    points: [
+      "Completed University of Minnesota's Full-Slack Coding Bootcamp where I was introduced to the MERN paradigm. Continuing self teaching and introducing myself to new technologies while I search for a full-time gig as a programmer.",
     ],
   },
   {
