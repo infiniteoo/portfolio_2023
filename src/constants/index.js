@@ -116,52 +116,69 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Past to Present",
+    company_name: "how we got here",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Birth - Jan 2014",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Lifelong tech geek and tinkerer. Building computers and websites since childhood. ",
+      "Novice programming with QBasic and Pascal, and Unix administration/shell scripting. ",
+      "Self taught web development with HTML, CSS, and JavaScript. ",
     ],
   },
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Director of Production",
+    company_name: "Townsquare Media",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "Jan 2014 - Jan 2017",
+    points: [
+      "Developed automated radio show production application with Java, used daily on 100+ radio stations.",
+      "Collaborate with Director of Programming to produce and implement new radio show concepts.",
+      "Work with sales and marketing teams to develop and execute on-air advertising campaigns.",
+      "Fasciliate and manage national radio show syndication and distribution.",
+      "Fasciliate and manage national cash giveaway contests with 100,000+ participants.",
+    ],
+  },
+  {
+    title: "Production Director",
+    company_name: "Go Radio / Minnesota Twins",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "Jan 2016 - Jan 2020",
+    points: [
+      "Write and produce radio commercials and creative imaging for local and national clients.",
+      "Maintain broadcast servers and content databases, update station website and social media.",
+
+      "Technical producer for Minnesota Twins Player's Playlist weekly radio show and podcast.",
+
+      "On-field photographer for Minnesota Twins home games, and other special events.",
+      "Worked daily with notable hip-hop creators DJ Bonics (Wiz Khalifa), Sophia Eris (Lizzo), DJ D-Mil (Rhymesayers), and Peter Parker (Machine Gun Kelly).",
+    ],
+  },
+  {
+    title: "Bootcamp Graduation",
+    company_name: "University of Minnesota",
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
-      "Completed University of Minnesota's Full-Slack Coding Bootcamp where I was introduced to the MERN paradigm. Continuing self teaching and introducing myself to new technologies while I search for a full-time gig as a programmer.",
+      "Completed University of Minnesota's Full-Slack Coding Bootcamp where I was introduced to the MERN stack paradigm. Continuing self teaching and introducing myself to new technologies.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Forklift Operator | Jr. Developer",
+    company_name: "Current",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Apr 2021 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Primary focus is now on warehouse, production and logistic-based applications.",
+      "Deployed multiple warehouse tools used in daily production, including a pallet tag/barcode generator, labratory sample tracking, and driver check-in mobile app.",
+      "Built a complete, open-source warehouse management system (WMS) using Next.js, React Native, and Supabase.",
+      "Extensive study in Next.js, React Native and Supabase",
+      "Built an interactive, live stream donation platform with React, MongoDB, and Google Pay",
     ],
   },
 ];
@@ -195,30 +212,30 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Open WMS",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Complete warehouse management system (WMS) built with Next.js, React Native, Clerk, and Supabase. Includes inventory management, inbound/outbound shipments, mobile app, and many more features.",
     tags: [
       {
-        name: "react",
+        name: "react-native",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "supabase",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "next-js",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/infiniteoo/wms",
   },
   {
-    name: "Job IT",
+    name: "Photography Portfolio",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "My personal photography portfolio collected from my years of working with the Minnesota Twins, and Go Radio.  Includes on-field action, concerts, and other special events.",
     tags: [
       {
         name: "react",
@@ -234,12 +251,12 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/infiniteoo/photo_portfolio",
   },
   {
-    name: "Trip Guide",
+    name: "PowerDing",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An interactive, live stream donation platform built with React, MongoDB, and Google Pay.  Includes authentication, media playback, donation payments, and more.",
     tags: [
       {
         name: "nextjs",
@@ -255,7 +272,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/infiniteoo/powerding",
   },
 ];
 
