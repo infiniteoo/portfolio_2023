@@ -31,6 +31,7 @@ import {
   wms,
   photos,
   twins,
+  wms2,
 } from "../assets";
 
 export const navLinks = [
@@ -145,8 +146,8 @@ const experiences = [
       "Developed automated radio show production application with Java, used daily on 100+ radio stations.",
       "Collaborate with Director of Programming to produce and implement new radio show concepts.",
       "Work with sales and marketing teams to develop and execute on-air advertising campaigns.",
-      "Fasciliate and manage national radio show syndication and distribution.",
-      "Fasciliate and manage national cash giveaway contests with 100,000+ participants.",
+      "Faciliate and manage national radio show syndication and distribution.",
+      "Faciliate and manage national cash giveaway contests with 100,000+ participants.",
     ],
   },
   {
@@ -235,7 +236,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: wms,
+    image: wms2,
     source_code_link: "https://github.com/infiniteoo/wms",
     demo_link: "https://greatblue.netlify.app",
   },
@@ -281,7 +282,7 @@ const projects = [
     ],
     image: powerding,
     source_code_link: "https://github.com/infiniteoo/powerding",
-    demo_link: "https://powerding.netlify.app",
+    demo_link: "#",
   },
 ];
 
