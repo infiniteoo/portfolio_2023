@@ -146,8 +146,8 @@ const experiences = [
       "Developed automated radio show production application with Java, used daily on 100+ radio stations.",
       "Collaborate with Director of Programming to produce and implement new radio show concepts.",
       "Work with sales and marketing teams to develop and execute on-air advertising campaigns.",
-      "Faciliate and manage national radio show syndication and distribution.",
-      "Faciliate and manage national cash giveaway contests with 100,000+ participants.",
+      "Facilitate and manage national radio show syndication and distribution.",
+      "Facilitate and manage national cash giveaway contests with 100,000+ participants.",
     ],
   },
   {
@@ -263,6 +263,28 @@ const projects = [
     demo_link: "https://troypics.netlify.app",
   },
   {
+    name: "PalletTest",
+    description:
+      "A warehouse to labratory sample request and loadout approval communication tool, which displays real-time updates on tests being conducted by the labratory.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: wms,
+    source_code_link: "https://github.com/infiniteoo/lab_checks",
+    demo_link: "https://pallettest.netlify.app",
+  },
+  {
     name: "PowerDing",
     description:
       "An interactive, live stream donation platform built with React, MongoDB, and Google Pay.  Includes authentication, media playback, donation payments, and more.",
@@ -282,7 +304,7 @@ const projects = [
     ],
     image: powerding,
     source_code_link: "https://github.com/infiniteoo/powerding",
-    demo_link: "#",
+    demo_link: "https://github.com/infiniteoo/powerding",
   },
 ];
 
