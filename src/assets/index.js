@@ -32,12 +32,14 @@ import photos from "./photos.png";
 import powerding from "./powerding.png";
 import wms from "./wms.png";
 import wms2 from "./wms2.png";
+import threedportfolio from "./3dportfolio.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
   logo,
+  threedportfolio,
   backend,
   creator,
   mobile,

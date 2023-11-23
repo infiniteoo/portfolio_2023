@@ -8,6 +8,7 @@ import {
   html,
   css,
   reactjs,
+  threedportfolio,
   redux,
   history,
   tailwind,
@@ -261,6 +262,28 @@ const projects = [
     image: photos,
     source_code_link: "https://github.com/infiniteoo/photo_portfolio",
     demo_link: "https://troypics.netlify.app",
+  },
+  {
+    name: "3D Web Portfolio",
+    description:
+      "My 3D web development portfolio built with React, Three.js, and Framer Motion.  Includes interactive 3D models, animation triggers on user action, and more.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "three.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "vite",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: threedportfolio,
+    source_code_link: "https://github.com/infiniteoo/3d_portfolio_2024",
+    demo_link: "https://troy3d.netlify.app",
   },
   {
     name: "PalletTest",
